@@ -33,7 +33,7 @@
   background-color: purple;
 }
 .battleship {
-  background-color: grey;
+  background-color: darkgreen;
 }
 .carrier{
   background-color: darkcyan;
@@ -62,4 +62,13 @@
   width: 50px;
   height: 10px;
   margin: 3px;
+}
+.hover {
+  background-color: grey;
+}
+.boom {
+  background-color: red;
+}
+.empty {
+  background-color: grey;
 }
