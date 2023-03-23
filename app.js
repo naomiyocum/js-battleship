@@ -182,6 +182,12 @@ const computerSunkShips = []
 
 function handleClick(e){
   if (!gameOver) {
+    if (e.target.classList.contains('taken') &&
+        e.target.classList.contains('boom') ||
+        e.target.classList.contains('empty')) {
+          infoDisplay.textContent = "You already hit this spot. Try again!"
+          handleClick()
+        }
     if (e.target.classList.contains('taken')) {
       e.target.classList.add('boom')
       infoDisplay.textContent = "You hit the computer's ship!"
