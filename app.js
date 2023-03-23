@@ -165,10 +165,10 @@ function startGame() {
     } else {
       infoDisplay.textContent = "LEGGO!"
       turnDisplay.textContent = "You start! Good luck!"
+      playerTurn = true
       const allBoardBlocks = document.querySelectorAll('#computer div')
       allBoardBlocks.forEach(block => block.addEventListener('click', handleClick))
     }
-    playerTurn = true
   }
   
 }
