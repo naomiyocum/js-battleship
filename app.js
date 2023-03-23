@@ -163,12 +163,12 @@ function startGame() {
     if (optionContainer.children.length != 0) {
       infoDisplay.textContent = 'Please place all your pieces first!'
     } else {
+      infoDisplay.textContent = "LEGGO!"
+      turnDisplay.textContent = "You start! Good luck!"
       const allBoardBlocks = document.querySelectorAll('#computer div')
       allBoardBlocks.forEach(block => block.addEventListener('click', handleClick))
     }
     playerTurn = true
-    infoDisplay.textContent = "LEGGO!"
-    turnDisplay.textContent = "You start! Good luck!"
   }
   
 }
