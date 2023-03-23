@@ -1,4 +1,4 @@
-Followed a [YouTube tutorial](https://external.ink?to=/https://www.youtube.com/watch?v=Ubh_k18sX4E) creating battleship using JavaScript!
+Followed a <a href="https://www.youtube.com/watch?v=Ubh_k18sX4E" target="_blank">YouTube tutorial</a> creating battleship using JavaScript!
 
 In addition to the tutorial...
 - added grids to each board
